@@ -1,0 +1,51 @@
+-- 
+--1.  Load data into dim_customers
+COPY gold.dim_customers
+FROM 'C:\Users\Chidera\sql_bike_store_analysis\gold.dim_customers.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+--2.   Load data into dim_products
+COPY gold.dim_products
+FROM 'C:\Users\Chidera\sql_bike_store_analysis\gold.dim_products.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+
+--3.    Load data into fact_sales
+COPY gold.fact_sales
+FROM 'C:\Users\Chidera\sql_bike_store_analysis\gold.fact_sales.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+------------------------------------------------
+/* Because of some operational errors Postgres count'nt load my tables 
+so i have to use the alternative
+
+And what is this alternative?
+Loading them directly into my postgres Database of the terminal window
+using the PSQL TOOLS.
+
+using the below command
+*/
+
+\copy gold.dim_customers FROM 'C:\Users\Chidera\sql_bike_store_analysis\gold.dim_customers.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy gold.dim_products FROM 'C:\Users\Chidera\sql_bike_store_analysis\gold.dim_products.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy gold.fact_sales FROM 'C:\Users\Chidera\sql_bike_store_analysis\gold.fact_sales.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+
+
+-------------------------------------------------
+-- Selecting the top5 of each of our tables making sure that everything is working correctly and properly loaded.
+
+
+SELECT *
+FROM gold.dim_customers
+LIMIT 5
+
+SELECT *
+FROM gold.dim_products
+LIMIT 5
+
+SELECT *
+FROM gold.fact_sales
+LIMIT 5

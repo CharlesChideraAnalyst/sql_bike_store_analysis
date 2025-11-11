@@ -1,0 +1,6 @@
+/.vscode
+/gold.dim_customers.csv
+/gold.dim_products.csv
+/gold.fact_sales.csv
+/postgres.session.sql
+/sql_bike_store.session.sql
