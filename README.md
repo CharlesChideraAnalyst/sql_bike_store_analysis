@@ -5,14 +5,38 @@ Uncovering insights, trends, and patterns that influence bike buying decisions t
 
 ---
 
-## 📚 Table of Contents
 
-1. 🚀 [Introduction](#-introduction)
-2. 🏍️ [Background](#️-background)
-3. 🛠️ [Tools Used](#️-tools-used)
-4. 📊 [The Analysis](#-the-analysis)
-5. 💡 [Things I Learned](#-things-i-learned)
-6. 🏁 [Conclusion](#-conclusion)
+## 📑 Table of Contents
+
+1. 🚀 [Introduction & Project Overview](#🚀-introduction--project-overview)  
+2. 📚 [Background](#🌐-project-background)
+  
+3. 🛠️ [Tools & Technologies](#🧰-tools--technologies)
+  
+4. 📊 [Analysis](#📊-data-analysis--insights)
+  
+    - 📈 [Cumulative Analysis](#📈-2-cumulative-analysis)
+  
+      🎯 [Performance Analysis](#📊-performance-analysis)
+  
+    - 🍰 [Part-to-Whole Analysis](#🔢-part–to–whole-analysis)
+  
+    - 🧩 🧩 [Data Segmentation](#🧩-data-segmentation)
+  
+5. 🚀 🚀 [Key Findings](#🔍-key-findings)
+  
+    - 👥 [Customer Insights](#📊-key-findings-—-customer-insights)
+  
+    - 🛒 [Product Insights](#📊-key-findings-—-product-insights)
+  
+6. 💡 [Things I Learned](#💡-things-i-learned)
+  
+7. 📝 [Conclusion](#📝-conclusion)
+ 
+8. 🙏 [Thank You](#🙏-thank-you)
+  
+
+
 
 
 ## 🚀 Introduction & Project Overview
@@ -436,8 +460,6 @@ Here is the source code for the product report . Click below to view the full qu
 
 ## 📊 Key Findings — Customer Insights
 
-Here’s a clear breakdown of what we discovered about our customers and their buying behavior:
-
 ### 👥 1. Most of our Customers are New
 
 The largest customer group falls under New Customers (less than 12 months of purchase history).
@@ -486,18 +508,12 @@ This visual makes it easy to compare customer groups and understand the factors 
 
 ![Customer Insights Bar Chart](assets/CustReport.png)
 
-### 📈 What the Chart Shows
-- Helps identify the **strongest customer segments** and opportunities for targeted marketing.
+### 📈 What our customer Chart Shows
+- The **strongest customer segments** and opportunities for targeted marketing.
 
 ---
 
 ## 📊 Key Findings — Products Insights
-
-Here’s a clear breakdown of what we discovered about our purchase and their purchase behavior:
-
-## 🚴‍♂️ Key Findings — Product Insights
-
-Here’s what the analysis revealed about the bike products and how customers interact with them:
 
 ### 🛠️ 1. Most Popular Product Categories
 - **Mountain Bikes** were the top-performing category, showing the highest customer interest and purchase rate.
@@ -546,6 +562,91 @@ This visual helps showcase customer preferences and the overall demand for each 
 - Supports decisions around **inventory**, **marketing focus**, and **product development**.
 
 ---
+
+## 💡 Things I Learned
+
+Throughout this Bike Sales Analysis project, I gained several valuable insights that strengthened my analytical skills and understanding of real-world data workflows:
+
+
+### 🛠️ 1. SQL Window Functions Are Game-Changers
+Using window functions such as `OVER()` helped me:
+- Compare category performance  
+- Calculate part-to-whole percentages  
+- Generate rankings and totals without losing row-level detail  
+
+This made the analysis much more efficient and powerful.
+
+### 📊 2. Importance of Part-to-Whole Analysis
+I learned how to evaluate each product category’s contribution to overall revenue.  
+This helped uncover:
+- Over-performing product segments  
+- Under-performing categories that need attention  
+- Business risks caused by heavy dependence on a single category  
+
+### 🎨 3. Turning Raw Data Into Visual Insights
+Building visuals made it easier to communicate findings clearly.  
+Charts helped bring out:
+- Product preferences  
+- Revenue breakdown  
+in a way stakeholders can understand at a glance.
+
+### 🧩 4. Connecting Business Questions to Data
+I practiced translating business questions into SQL queries and analytical logic.  
+Instead of just running numbers, I learned to ask:
+- *“What decision will this insight support?”*  
+- *"How does this metric help the business?"*
+
+### 🚀 5. Storytelling With Data
+I learned how to build a narrative around the data — not just showing results, but explaining what they *mean* and *why they matter*.
+
+---
+
+## 🏁 Conclusion
+
+The analysis revealed a powerful insight about our product performance — one that can strongly influence strategic decision-making.
+
+### 💡 Key Takeaways
+
+- 🚲 **The Bike category overwhelmingly dominates the business**, contributing **about 96% of total sales**.  
+- 🧢🧤 **Accessories and Clothing contribute only a very small portion** of overall revenue.  
+- ⚠️ **This level of dependency on a single category is risky for the business.**  
+  Relying heavily on bikes means that if this category underperforms, the entire business could be impacted.
+- 📉 The other categories are significantly **underperforming**, and this imbalance reduces diversification.
+
+### 🧭 What This Means for the Business
+
+- The company must decide whether to:
+  - **Phase out** products in Accessories and Clothing if they are no longer profitable  
+  **or**
+  - **Invest more** in improving these underperforming categories to increase their revenue share.
+
+
+### 📊 Why This Insight Matters
+
+This is where **Part-to-Whole Analysis** becomes powerful:
+
+- If we only looked at **total sales numbers**, it would be difficult to identify the importance of each product category.  
+- But by analyzing **percentage contributions**, we immediately see:
+  - Which category is **top-performing**
+  - Which ones are **lagging**
+  - Where the business is exposed to risk
+
+
+
+## 🙏 Thank You
+
+Thank you for taking the time to follow along with this **Bike Sales Analysis** project!  
+
+It was a journey full of insights, learning, and exploration of real-world data. I hope you found the analysis as interesting and insightful as I did.  
+
+I look forward to connecting with you on **bigger and more exciting projects** in the future.  
+
+If you have any feedback, suggestions, or recommendations, feel free to reach out to me:  
+- 📧 Email: chachidera7@gmail.com  
+- 🔗 LinkedIn: [Your LinkedIn Profile](www.linkedin.com/in/chidera-charles-04548738b)  
+
+I’m excited to hear from you and explore ways to improve and grow together! 🚀💡
+
 
 
 
