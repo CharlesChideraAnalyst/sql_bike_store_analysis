@@ -5,38 +5,22 @@ Uncovering insights, trends, and patterns that influence bike buying decisions t
 
 ---
 
+## Table of Contents
 
-## 📑 Table of Contents
-
-1. 🚀 [Introduction & Project Overview](#🚀-introduction--project-overview)  
-2. 📚 [Background](#🌐-project-background)
-  
-3. 🛠️ [Tools & Technologies](#🧰-tools--technologies)
-  
-4. 📊 [Analysis](#📊-data-analysis--insights)
-  
-    - 📈 [Cumulative Analysis](#📈-2-cumulative-analysis)
-  
-      🎯 [Performance Analysis](#📊-performance-analysis)
-  
-    - 🍰 [Part-to-Whole Analysis](#🔢-part–to–whole-analysis)
-  
-    - 🧩 🧩 [Data Segmentation](#🧩-data-segmentation)
-  
-5. 🚀 🚀 [Key Findings](#🔍-key-findings)
-  
-    - 👥 [Customer Insights](#📊-key-findings-—-customer-insights)
-  
-    - 🛒 [Product Insights](#📊-key-findings-—-product-insights)
-  
-6. 💡 [Things I Learned](#💡-things-i-learned)
-  
-7. 📝 [Conclusion](#📝-conclusion)
- 
-8. 🙏 [Thank You](#🙏-thank-you)
-  
-
-
+🚀 [Introduction & Project Overview](#🚀-introduction--project-overview)  
+📚 [Background](#🌐-project-background)  
+🛠️ [Tools & Technologies](#🧰-tools--technologies)  
+📊 [Data Analysis & Insights](#📊-data-analysis--insights)  
+📈 [Cumulative Analysis](#📈-2-cumulative-analysis)  
+🎯 [Performance Analysis](#📊-performance-analysis)  
+🍰 [Part-to-Whole Analysis](#🔢-part-to-whole-analysis)  
+🧩 [Data Segmentation](#🧩-data-segmentation)  
+🔍 [Key Findings](#🔍-key-findings)  
+👥 [Customer Insights](#📊-key-findings---customer-insights)  
+🛒 [Product Insights](#📊-key-findings---product-insights)  
+💡 [Things I Learned](#💡-things-i-learned)  
+📝 [Conclusion](#📝-conclusion)  
+🙏 [Thank You](#🙏-thank-you)
 
 
 ## 🚀 Introduction & Project Overview
