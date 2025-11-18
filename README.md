@@ -167,7 +167,10 @@ To dive deeply into the bike sales dataset, I leveraged a combination of powerfu
 - 📊 **Excel Dashboard** – Used for creating clear and engaging visualizations that summarize key insights from the analysis.  
 
 > These tools allowed me to move from raw data to **actionable insights** in a structured, reproducible, and professional way.
+---
 
+
+# 📊 Data Analysis & Insights
 ## 🗄️ 1. Database Exploration
 
 Let's say hello to the database! In this step, we explore the **structure of our database** to understand tables, views, and columns. This helps us get a foundation for further analysis.  
@@ -406,7 +409,7 @@ Here is the source code for the customer report . Click below to view the full q
 [CLICK >>>>> CUSTOMER REPORT SOURCE CODE SQL](bike_sales_customer_report/customer_report.sql)
 
 
-
+---
 # 📦 Product Report
 
 The **Product Report** provides a complete 360° view of product performance, revenue contribution, customer demand, and product lifecycle metrics. This helps stakeholders understand which products are performing well, which need attention, and where strategic improvements can be made.
@@ -426,6 +429,123 @@ This report consolidates **key product metrics and behaviors**, helping the busi
 Here is the source code for the product report . Click below to view the full queries:
 
 [CLICK >>>>> PRODUCT REPORT SOURCE CODE SQL](bike_sales_product_report/product_report.sql)
+
+---
+
+# 🔍 Key Findings
+
+## 📊 Key Findings — Customer Insights
+
+Here’s a clear breakdown of what we discovered about our customers and their buying behavior:
+
+### 👥 1. Most of our Customers are New
+
+The largest customer group falls under New Customers (less than 12 months of purchase history).
+This means:
+
+The business is acquiring new customers at a strong rate
+
+BUT retention and long-term loyalty may be low
+
+Many customers try the business but do not stay long enough to become high-value
+
+### 🌍 2. Where They Live
+- Customers living in **urban and suburban areas** showed the highest purchase rates.  
+- Rural areas recorded noticeably fewer purchases — possibly due to accessibility or lifestyle differences.
+
+### 2.📊 Regular Customers Form the Middle Group
+
+Regular customers are those who have: More than 12 months lifespan But spend $5,000 or less
+
+They show: Stable buying behavior, but not high spending. Potential to be converted into loyal, high-value customers with the right strategy. They contribute consistently but not aggressively to revenue
+
+### 👑 4. VIP Customers Are the Smallest Group
+
+VIPs are customers with: More than 12 months of history Spending over $5,000
+What this tells us: Only a small portion of customers bring in the highest revenue They are the most valuable segment Losing even a few VIPs could impact the business significantly They require special attention, rewards, and loyalty programs
+
+### 🚀 4. Spending Behaviour Is Strongly Tied to Customer Lifespan
+
+Our analysis shows a clear pattern: The longer a customer stays, the more they spend. New customers mostly contribute small amounts. VIP customers contribute the most because they remain engaged for over a year. This confirms the importance of retention strategies
+
+
+### 🎯 6. Customer Segmentation Reveals Clear Opportunities
+
+Our segmentation helps the business understand where to focus:
+
+| Segment     | What It Means                  | Business Opportunity                                      |
+| ----------- | ------------------------------ | --------------------------------------------------------- |
+| **New**     | High volume, low spending      | Improve onboarding, cross-sell, first-purchase incentives |
+| **Regular** | Medium volume, medium spending | Reward programs, upselling, engagement campaigns          |
+| **VIP**     | Low volume, high spending      | Personalized offers, loyalty perks, exclusive benefits    |
+
+## 📊 Customer Insights Visualization
+
+Below is the bar chart that summarizes the key customer patterns identified in the analysis.  
+This visual makes it easy to compare customer groups and understand the factors influencing bike purchases.
+
+![Customer Insights Bar Chart](assets/CustReport.png)
+
+### 📈 What the Chart Shows
+- Helps identify the **strongest customer segments** and opportunities for targeted marketing.
+
+---
+
+## 📊 Key Findings — Products Insights
+
+Here’s a clear breakdown of what we discovered about our purchase and their purchase behavior:
+
+## 🚴‍♂️ Key Findings — Product Insights
+
+Here’s what the analysis revealed about the bike products and how customers interact with them:
+
+### 🛠️ 1. Most Popular Product Categories
+- **Mountain Bikes** were the top-performing category, showing the highest customer interest and purchase rate.
+- **Road Bikes** followed closely, appealing to customers with higher income and fitness-focused lifestyles.
+- **Touring Bikes** recorded lower purchases, suggesting niche usage or lower demand.
+
+### 💰 2. Price Sensitivity & Behavior
+- Customers tended to choose bikes with a **reasonable mid-range price**, showing a balance between affordability and quality.
+- Higher-priced bikes were purchased mostly by customers with **graduate-level education** and **higher annual income**.
+
+### 📦 3. Product Performance Overview
+- Products with **higher quality ratings** consistently showed stronger sales.
+- Bikes offering **better durability and comfort features** attracted more returning customers.
+
+### 🎯 4. Customer Preference Patterns
+- Fitness-oriented customers leaned heavily towards **Mountain and Road Bikes**.
+- Short-distance commuters preferred **lightweight models** that are easier to use daily.
+- Casual users showed interest in **entry-level, budget-friendly bikes**.
+
+### 💡 5. Overall Product Insight Summary
+- Customers value **comfort**, **durability**, and **fair pricing**.
+- High-performing products shared three traits:  
+  **✔ Strong build quality**  
+  **✔ Reasonable price range**  
+  **✔ Suitable for daily urban or fitness use**
+
+---
+
+## 📊 Product Insights Visualization
+
+Below is the bar chart that highlights how different bike product categories performed in the analysis.  
+This visual helps showcase customer preferences and the overall demand for each bike type.
+
+![Product Insights Bar Chart](assets/productR1.png)
+
+
+![Product Insights Bar Chart](assets/ProductR2.png)
+
+![Product Insights Bar Chart](assets/ProductR3.png)
+
+
+### 📈 What the Chart Shows
+- Comparison of **product categories** such as Mountain, Road, and Touring Bikes.
+- Clear view of which products attracted the **highest customer interest and purchases**.
+- Helps identify which bike types are **high-demand**, **mid-range**, or **low-interest** segments.
+- Supports decisions around **inventory**, **marketing focus**, and **product development**.
+
+---
 
 
 
